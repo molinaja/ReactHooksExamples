@@ -1,7 +1,8 @@
 # React + Vite
 
-App example for a little review for a hooks an d types hooks of react 
+App example for a little review for a hooks and types hooks of react 
 
+For this examples i using a vite 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

@@ -11,8 +11,6 @@ export const SimpleFormCustomHook = () => {
     txtPasswword: '',
   })
 
-  //const { txtUserName, txtEmail, txtPasswword } = formState;
-
   useEffect(() => {
 
     console.log('useeffect');
