@@ -5,7 +5,7 @@ export const SimpleFormCustomHook = () => {
 
 
 
-  const { formState, onchangeInput, txtUserName, txtEmail, txtPasswword } = UseForm({
+  const { formState, onchangeInput, txtUserName, txtEmail, txtPasswword, onResetForm  } = UseForm({
     txtUserName: '',
     txtEmail: '',
     txtPasswword: '',
@@ -41,6 +41,8 @@ export const SimpleFormCustomHook = () => {
       <input className="form-control mt-2" type="email" placeholder="e-mail" name="txtEmail" value={txtEmail} onChange={onchangeInput} />
 
       <input className="form-control mt-2" type="password" placeholder="Pass" name="txtPasswword" value={txtPasswword} onChange={onchangeInput} />
+
+      <button onClick={ onResetForm } className='btn btn-primary mt-2'>Reset</button>
 
 
     </>

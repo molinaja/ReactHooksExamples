@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import { UsestateHook, CustomHookForCounter } from "./useState/index";
 import { SimpleForm, SimpleFormCustomHook } from "./useEffect/index";
+import { MultipleCustomHooks } from "./Examples/index";
 
 
 export function App() {
@@ -21,7 +22,7 @@ export function App() {
       </div>
       <h1>Vite + React</h1>
       
-      
+      <MultipleCustomHooks/>
       <SimpleFormCustomHook/>
       <SimpleForm/>
       <CustomHookForCounter/>
